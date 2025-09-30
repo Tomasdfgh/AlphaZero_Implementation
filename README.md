@@ -1,7 +1,8 @@
 # Aldarion: Actor-Critic, Reinforcement Learning Chess Engine
 
-![356070291-1238b477-6651-4c25-8f51-3549290ad56d](https://github.com/user-attachments/assets/4a488daa-3fcf-4bdf-b92b-101eabec0b58)
 
+
+![356070291-1238b477-6651-4c25-8f51-3549290ad56d](https://github.com/user-attachments/assets/6671c63b-5918-45d1-ad18-237862938fb6)
 
 
 <p align="center">
