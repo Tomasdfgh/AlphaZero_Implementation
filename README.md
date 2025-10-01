@@ -33,7 +33,14 @@ python -c "import torch; import chess; print('PyTorch version:', torch.__version
 
 ## Example script commands
 
-### Run a selfplay trial
+### Create Baseline Model with Random Weights
+
+```bash
+python -c "import os; import torch; import model as md; os.makedirs('model_weights', exist_ok=True); torch.save(md.ChessNet().state_dict(), 'model_weights/model_weights.pth'); print('Random weights saved to model_weights/model_weights.pth')"
+```
+Run that command to initialize a starting model with random weights. The weight will be saved in the model_weights folder as a .pth file. You can use this file in order to run selfplay to create training data (below).
+
+### Run Selfplay
 
 ```bash
 python3 selfplay_generate_data.py --total_games 250 --num_simulations  128 --cpu_utilization 0.9 --model_path <Path to the model weight (.pth) file>
@@ -49,7 +56,7 @@ python3 train_model.py --data <Path to training data .pkl file> --validation_dat
 
 This example command will trigger model training on the model from the path to the weights. Both training and validation data can be obtained from the selfplay process.
 
-### Run Evaluation Between two models
+### Run Evaluation Between Two Models
 
 ```bash
 python3 evaluate_models.py --old_model <Path to the old model weight (.pth) file> --new_model <Path to the new model weight (.pth) file> --num_games 5 --num_simulations 5 --cpu_utilization 0.9
