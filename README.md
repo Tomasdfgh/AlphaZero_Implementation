@@ -1,4 +1,4 @@
-# Aldarion: Actor-Critic, Reinforcement Learning Chess Engine
+# Aldarion: Actor-Critic, RL Chess Engine
 
 
 
