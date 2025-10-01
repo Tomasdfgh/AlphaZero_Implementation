@@ -4,9 +4,8 @@
 
 ![356070291-1238b477-6651-4c25-8f51-3549290ad56d](https://github.com/user-attachments/assets/6671c63b-5918-45d1-ad18-237862938fb6)
 
-
 <p align="center">
-  <img src="https://github.com/Tomasdfgh/Aldarion-A2C-Chess-Engine/assets/86145397/44381ed4-ac65-4c96-8513-901336e4223c" alt="Aldarion Chess Engine" width="300">
+  <img src="https://github.com/user-attachments/assets/d4262fef-4c08-40a3-9392-7510179ad53a" alt="Aldarion Chess Engine" width="300">
 </p>
 
 ## Introduction
